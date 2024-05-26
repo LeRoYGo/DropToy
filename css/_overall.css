@@ -6,21 +6,21 @@
 
 .site-container {
 	overflow: hidden;
+	height: 100vh;
 
 	background: rgb(35, 35, 35);
 	background: linear-gradient(135deg, rgba(35, 35, 35, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 .main {
-	height: calc(100vh - 162.75px);
+	max-height: calc(100vh - 162px);
 }
 
 .main__container {
 	display: grid;
 	grid-template-columns: auto 1fr auto;
-	grid-template-rows: max-content;
+	grid-template-rows: repeat(2, auto);
 	position: relative;
-	height: 100%;
 	padding-bottom: 80px;
 }
 
@@ -38,7 +38,17 @@
 .main__photo {
 	grid-area: 1 / 2 / 3 / 3;
 	justify-self: center;
-	align-self: center;
+	align-self: start;
+	position: relative;
+	height: 79vh;
+	width: 100%;
+}
+.main__photo img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: auto;
+	transform: translateX(-50%);
 }
 
 .card__container {
