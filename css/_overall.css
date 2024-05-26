@@ -6,14 +6,13 @@
 
 .site-container {
 	overflow: hidden;
-	height: 100vh;
 
 	background: rgb(35, 35, 35);
 	background: linear-gradient(135deg, rgba(35, 35, 35, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 .main {
-	height: 100%;
+	height: calc(100vh - 162.75px);
 }
 
 .main__container {
@@ -39,6 +38,7 @@
 .main__photo {
 	grid-area: 1 / 2 / 3 / 3;
 	justify-self: center;
+	align-self: center;
 }
 
 .card__container {
