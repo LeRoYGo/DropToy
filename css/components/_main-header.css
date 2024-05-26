@@ -1,0 +1,14 @@
+.main-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: max-content;
+}
+
+.main-header__title {
+	font-size: 6em;
+}
+.main-header__desc {
+	font-size: 1.4em;
+}

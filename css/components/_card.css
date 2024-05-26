@@ -1,0 +1,15 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #212121;
+	border-radius: 32px;
+	padding: 14px 24px;
+}
+.card__text span {
+	color: var(--yellow-color);
+}
+.card__img {
+	padding-top: 7px;
+	transform: rotateZ(-22deg);
+}

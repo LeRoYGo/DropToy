@@ -6,5 +6,10 @@
 @import '_overall.css';
 
 /* components imports */
+@import './components/_header.css';
+@import './components/_main-header.css';
+@import './components/_card.css';
+@import './components/_social.css';
+@import './components/_product-link.css';
 
 @import '_media.css';
