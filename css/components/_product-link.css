@@ -34,4 +34,5 @@
 	width: calc(100% + 20px);
 	height: calc(100% + 20px);
 	border: 2px dashed var(--white-color);
+	opacity: 0.2;
 }

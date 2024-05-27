@@ -1,0 +1,20 @@
+.contacts__container {
+	max-width: 229px;
+}
+.contacts {
+	display: flex;
+	flex-direction: column;
+	padding: 34px 36px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 40px;
+}
+.contacts > * {
+	margin-bottom: 10px;
+}
+.contacts__title {
+	color: var(--yellow-color);
+}
+.contacts__tel,
+.contacts__mail {
+	text-wrap: nowrap;
+}

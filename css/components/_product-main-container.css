@@ -1,0 +1,42 @@
+.main-container {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 30px;
+}
+
+.emblem-left {
+	grid-area: 1 / 1 / 2 / 2;
+}
+.main__сontent {
+	grid-area: 1 / 2 / 3 / 3;
+}
+.contacts__container {
+	grid-area: 1 / 3 / 2 / 4;
+}
+.social {
+	grid-area: 2 / 1 / 3 / 2;
+	justify-self: start;
+	align-self: end;
+}
+.social-gap {
+	margin-right: 130px;
+}
+.contacts__container > *:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.emblem-right {
+	grid-area: 2 / 3 / 3 / 4;
+	justify-self: center;
+	position: relative;
+}
+
+.emblem-left:after,
+.emblem-right:after {
+	content: url('../../img/emblem.svg');
+	position: absolute;
+}
+.emblem-right:after {
+	transform: translate(-14%, -14%);
+}

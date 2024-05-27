@@ -1,0 +1,30 @@
+.btn-reset {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.btn {
+	display: block;
+	padding: 13px 0;
+	border: 1px solid var(--yellow-color);
+}
+
+.btn--product {
+	background-color: var(--yellow-color);
+	color: #0d0d0d;
+	font-weight: 800;
+}
+
+.btn--contacts {
+	color: var(--yellow-color);
+}
+
+.btn--product,
+.btn--contacts {
+	border-radius: 122px;
+	width: 100%;
+}
