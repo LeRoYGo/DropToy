@@ -10,8 +10,8 @@
 }
 
 .site-container {
-	/* overflow: hidden; */
-
+	overflow: hidden;
+	height: 100%;
 	background: rgb(35, 35, 35);
 	background: linear-gradient(130deg, rgba(35, 35, 35, 0.95) 0%, rgba(0, 0, 0, 1) 100%);
 }
