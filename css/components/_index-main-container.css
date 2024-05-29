@@ -1,7 +1,7 @@
 .main__container {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 	position: relative;
 }
 
@@ -11,13 +11,13 @@
 	align-self: start;
 }
 .card__container {
-	grid-area: 1 / 2 / 2 / 3;
+	grid-area: 1 / 3 / 2 / 4;
 	justify-self: end;
 	align-self: start;
 	position: relative;
 }
 .social {
-	grid-area: 2 / 1 / 3 / 2;
+	grid-area: 3 / 1 / 4 / 2;
 	justify-self: start;
 	align-self: end;
 }
@@ -27,11 +27,9 @@
 	align-self: end;
 	position: relative;
 }
-
 .main__photo {
-	grid-area: 1 / 1 / 3 / 3;
+	grid-area: 2 / 2 / 3 / 3;
 	justify-self: center;
-	width: 45%;
 }
 
 .main__photo img {
