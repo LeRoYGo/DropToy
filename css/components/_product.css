@@ -41,6 +41,7 @@
 }
 .product__amount {
 	opacity: 0.15;
+	text-align: right;
 }
 .product-desc__title {
 	font-weight: 700;

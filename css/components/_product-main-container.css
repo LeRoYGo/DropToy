@@ -1,7 +1,7 @@
 .main-container {
 	display: grid;
 	grid-template-columns: auto 1fr auto;
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: repeat(2, auto);
 	grid-column-gap: 30px;
 }
 
@@ -28,15 +28,11 @@
 
 .emblem-right {
 	grid-area: 2 / 3 / 3 / 4;
-	justify-self: center;
-	position: relative;
+	justify-self: end;
+	align-self: end;
 }
 
-.emblem-left:after,
-.emblem-right:after {
+.emblem-left,
+.emblem-right {
 	content: url('../../img/emblem.svg');
-	position: absolute;
-}
-.emblem-right:after {
-	transform: translate(-14%, -14%);
 }

@@ -3,8 +3,8 @@
 	grid-template-columns: 1fr min-content 1fr;
 	align-items: center;
 	color: var(--white-color);
-	padding-top: 31px;
-	padding-bottom: 48px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .header__logo img {
 	max-width: 132px;

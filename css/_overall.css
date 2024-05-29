@@ -2,11 +2,11 @@
 	max-width: 1439px;
 	padding: 0 30px;
 	margin: 0 auto;
+	height: 100%;
 }
 
 .container--main {
-	padding-bottom: 80px;
-	min-height: calc(100vh - 170px);
+	padding-bottom: 50px;
 }
 
 .site-container {

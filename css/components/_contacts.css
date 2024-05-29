@@ -1,6 +1,3 @@
-.contacts__container {
-	max-width: 229px;
-}
 .contacts {
 	display: flex;
 	flex-direction: column;
