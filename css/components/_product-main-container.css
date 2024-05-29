@@ -20,7 +20,7 @@
 	align-self: end;
 }
 .social-gap {
-	margin-right: 130px;
+	padding-right: 130px;
 }
 .contacts__container > *:not(:last-child) {
 	margin-bottom: 20px;
