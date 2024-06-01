@@ -1,3 +1,6 @@
+.main {
+	height: 1%;
+}
 .main__container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -28,12 +31,10 @@
 	position: relative;
 }
 .main__photo {
-	grid-area: 2 / 2 / 3 / 3;
+	grid-area: 1 / 1 / 4 / 4;
 	justify-self: center;
-}
-
-.main__photo img {
 	object-fit: contain;
+	height: 100%;
 }
 /*  ---------------------- */
 
@@ -57,3 +58,7 @@
 }
 
 /*  ---------------------- */
+
+.height-lock {
+	height: 100vh;
+}
