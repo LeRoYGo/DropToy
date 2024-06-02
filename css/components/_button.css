@@ -30,5 +30,5 @@
 }
 
 .btn--feedback {
-	width: 85%;
+	flex: 0 1 80%;
 }

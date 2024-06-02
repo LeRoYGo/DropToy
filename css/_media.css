@@ -1,0 +1,139 @@
+@media (max-width: 1440px) {
+	body {
+		font-size: clamp(0.875rem, 0.446rem + 0.89vw, 1.25rem);
+	}
+	.header__containerV2 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.contacts {
+		display: none;
+	}
+	.social-gap {
+		padding-right: 50px;
+	}
+	.contacts__container {
+		width: 200px;
+	}
+}
+@media (min-width: 1440px) {
+	.wrapper {
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.menu__close {
+		display: none;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 1151px) {
+	.main__сontent {
+		flex-direction: column;
+		padding: 22px;
+	}
+	.product__header--padding {
+		padding-top: 20px;
+	}
+	.photo-gallery img:not(:last-child) {
+		margin-bottom: 0;
+	}
+	.photo-gallery {
+		padding-right: 0;
+		flex-direction: row;
+		overflow: hidden;
+	}
+	.photo-gallery > * {
+		margin-right: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.height-lock {
+		height: auto;
+	}
+	.header__nav,
+	.header__contacts,
+	.card__img {
+		display: none;
+	}
+	.card__text {
+		margin-bottom: 0;
+	}
+	.card {
+		padding: 15px 25px;
+	}
+	.card__container::after {
+		content: none;
+	}
+	.main__container {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, auto);
+	}
+	.social {
+		grid-area: 1 / 1 / 2 / 2;
+		justify-self: center;
+		align-self: center;
+		padding: 20px;
+		width: 100%;
+	}
+	.main-header {
+		grid-area: 2 / 1 / 3 / 2;
+		position: relative;
+		justify-self: center;
+		margin: 15px 0 40px;
+		max-width: 259px;
+		text-align: center;
+		font-size: 0.5rem;
+	}
+	.main-header__desc {
+		font-size: 2em;
+	}
+
+	.main__photo,
+	.card__container {
+		grid-area: 3 / 1 / 4 / 2;
+	}
+	.product__container {
+		grid-area: 4 / 1 / 5 / 2;
+		justify-self: center;
+	}
+	.product__container::before {
+		width: 20%;
+		left: 50%;
+		top: -35%;
+		transform: translate(-40%) rotate(90deg);
+		opacity: 0.1;
+
+		border-bottom: 1px solid var(--white-color);
+	}
+	.product-link {
+		width: 20vh;
+		height: 20vh;
+	}
+	.social__list {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.social__item:not(:last-child) {
+		margin-bottom: 0;
+		margin-right: 20px;
+	}
+
+	.emblem-left,
+	.emblem-right {
+		display: none;
+	}
+	.main-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.main-container > *:not(:nth-last-child(2)) {
+		margin-bottom: 20px;
+	}
+	.contacts__container {
+		width: auto;
+	}
+}

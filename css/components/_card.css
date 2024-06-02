@@ -4,12 +4,14 @@
 	align-items: center;
 	background-color: #212121;
 	border-radius: 32px;
-	padding: 14px 24px;
+	padding: 26px 26px 30px;
+}
+.card__text {
+	margin-bottom: 10px;
 }
 .card__text span {
 	color: var(--yellow-color);
 }
 .card__img {
-	padding-top: 7px;
 	transform: rotateZ(-22deg);
 }

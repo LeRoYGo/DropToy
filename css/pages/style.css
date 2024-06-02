@@ -7,6 +7,7 @@
 /* components imports */
 @import '../components/_header.css';
 @import '../components/_main-header.css';
+@import '../components/_button.css';
 @import '../components/_index-main-container.css';
 @import '../components/_card.css';
 @import '../components/_social.css';
